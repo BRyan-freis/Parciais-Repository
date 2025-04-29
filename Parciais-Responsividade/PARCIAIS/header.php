@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Document</title>
+    <title>Header</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo"><a href=""></a></div>
+        <div class="logo"></div>
+        <nav>
+            <ul class="menu">
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
         </nav>
     </header>
 </body>
