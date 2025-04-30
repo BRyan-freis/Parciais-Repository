@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Righteous&display=swap');
+
+
+body, .content {
+    color: black;
+}
+
+.content {
+    font-family: Cal Sans;
+    display: flex;
+    margin: center 30px;
+    background-color: solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    content: center;
+
+}
+
+.container {
+  background: linear-gradient(120deg, #5383a3, #0b3ad4);
+}
