@@ -2,7 +2,7 @@
 <footer class="site-footer">
     <div class="footer-container">
         <div class="footer-logo">
-            <a href="menuefooter-parciais/"> MinhaMarca </a>
+            <a href="../HTML/1-index.php"> MinhaMarca </a>
         </div>
         <div class="footer-links">
             <a href="/menuefooter-parciais/sobre.php"><i class="fas fa-info-circle"></i>Sobre</a>
@@ -17,5 +17,6 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>&copy; <?php echo date("Y"); ?> MinhaMarca. Todos os direitos reservados.</p>
+        <p>&copy; <?php echo date("Y"); ?> MinhaMarca. Todos os direitos reservados.
+        </p>
     </div>
