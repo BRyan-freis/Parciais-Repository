@@ -54,32 +54,25 @@ img {
 }
 
 
-/* Responsivo */
+/* MOBILE */
 @media (max-width: 768px) {
-  .titlle {
-      font-size: 2rem;
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
   }
 
-  h2 {
-      font-size: 1.4rem;
+  .nav-list.active {
+    display: flex;
   }
 
-  .content div {
-      font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .titlle {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-  }
-
-  .content {
-    font-size: 0.95rem;
+  .menu-toggle {
+    display: block;
   }
 }
 
